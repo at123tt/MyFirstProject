@@ -12,8 +12,8 @@ public class MyFirstTest {
         driver.navigate().to("http://seleniumsimdddplified.com");
 
         Assert.assertTrue("title start with selenium simplified", driver.getTitle().startsWith("Selenium Simplified"));
-
-
+    //test
+    //test123
         driver.close();
         try
         {
